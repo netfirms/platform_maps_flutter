@@ -203,6 +203,7 @@ class _PlatformMapState extends State<PlatformMap> {
         onCameraMove: _onCameraMove,
         onTap: _onTap,
         onLongPress: _onLongPress,
+        mapToolbarEnabled: false,
         trafficEnabled: widget.trafficEnabled,
         minMaxZoomPreference: widget.minMaxZoomPreference != null
             ? widget.minMaxZoomPreference.googleMapsZoomPreference
